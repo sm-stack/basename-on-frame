@@ -1,0 +1,35 @@
+{
+  "name": "template-next",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "deploy": "vercel",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.0",
+    "frog": "latest",
+    "hono": "^4",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "ts-node": "^10.9.2",
+    "viem": "^2.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "vercel": "^32.4.1"
+  },
+  "lib": [
+    "ES2020",
+    "esnext",
+    "dom"
+  ]
+}
