@@ -113,8 +113,8 @@ app.frame('/has-primary-name', (c) => {
   return c.res({
     image: '/has-primary-name.png',
     intents: [
-      <Button action='/mint' value='false'>No</Button>,
       <Button action='/mint' value='true'>Yes</Button>,
+      <Button action='/mint' value='false'>No</Button>,
     ],
   })
 })
